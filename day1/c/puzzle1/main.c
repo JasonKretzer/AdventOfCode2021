@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
     }
     while (fscanf(myFile, "%d", &currentNumber) != EOF)
     {
-            printf("previous = %d && current = %d", previousNumber, currentNumber);
+        printf("previous = %d && current = %d", previousNumber, currentNumber);
         if(previousNumber != -1 && currentNumber > previousNumber)
         {
             numberOfIncreases++;
